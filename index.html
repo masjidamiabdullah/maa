@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== Swiper ===============-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!--=============== TAB ===============-->
+    <link rel="shortcut icon" href="assets/img/logo-muhammadiyah.jpg" type="image/x-icon" />
+
+    <!--=============== REMIXICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!--=============== Font Awesome ===============-->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+      <!-- Font Awesome -->
+      <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"
+      />
+      <!-- Google Fonts Roboto -->
+      <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      />
+      <!-- MDB UI KIT -->
+      <link rel="stylesheet" href="css/mdb.min.css" />
+      <!-- Custom styles -->
+
+      <link rel="stylesheet" href="https://cdn.datatables.net/1.13.7/css/jquery.dataTables.min.css">
+
+      <!-- Responsive Datatable -->
+      <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.5.0/css/responsive.bootstrap.min.css">
+
+      <style>
+        table thead{
+          background-color: #000;
+        }
+      </style>
+    <title>Masjid Ami Abdullah</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">
+          <img src="assets/img/logomasjid.png" alt="" />
+          Masjid Ami Abdullah
+        </a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">Sholat Jumat</a>
+            </li>
+            <li class="nav__item">
+              <a href="#popular" class="nav__link">Kajian Tematik</a>
+            </li>
+            <li class="nav__item">
+              <a href="#recently" class="nav__link">Donasi & Keuangan</a>
+            </li>
+            <li class="nav__item">
+              <a href="#saran" class="nav__link">Saran & Kritik</a>
+            </li>
+          </ul>
+
+          <!-- Close button -->
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+
+          <img src="assets/img/leaf-branch-4.png" alt="leaf image" class="nav__img-1" />
+          <img src="assets/img/leaf-branch-3.png" alt="leaf image" class="nav__img-2" />
+        </div>
+
+        <div class="nav__buttons">
+          <!-- Dark/Light mode button -->
+          <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-apps-2-line"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <img src="assets/img/logomasjid.png" alt="home image" class="home__img" />
+
+          <div class="home__data">
+            <h1 class="home__title">
+              Islam Berkemajuan
+
+              <!-- <div>
+                <img src="assets/img/home-risoles-title.png" alt="home image" />
+              </div> -->
+            </h1>
+            <p class="home__description"><em>"Dan hendaklah ada segolongan di antara kamu yang menyeru kepada kebajikan, menyuruh kepada yang ma'ruf dan mencegah dari yang munkar; merekalah orang-orang yang beruntung." (Ali-Imran: 104)</em></p>
+            <a href="#" class="button"> Dukung Kami <i class="ri-arrow-right-line"></i> </a>
+          </div>
+        </div>
+        <img src="assets/img/leaf-branch-2.png" alt="home image" class="home__leaf-1" />
+        <img src="assets/img/leaf-branch-4.png" alt="home image" class="home__leaf-2" />
+      </section>
+
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about">
+        <div class="about__container container grid">
+          <div class="about__data">
+            <span class="section__subtitle">Jadwal Sholat Jumat</span>
+            <h2 class="section__title about__title">
+              <!-- <div>
+                We Provide
+                <img src="assets/img/about-sushi-title.png" alt="about image" />
+              </div> -->
+              Khatib, Imam, dan Muadzin 
+            </h2>
+
+           
+          </div>
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide" >
+                <div class="centered" style="color:#000;">
+                  Khatib : Ustadz XXXXXX<br>
+                  Imam : Ustadz XXXXXX <br>
+                  Muadzin : XXXXXX <br>
+                  Jam : 12:15 WITA
+                </div>
+                <img src="assets/img/sholjum1.png" alt="">
+              </div>
+              <div class="swiper-slide">
+                <div class="centered" style="color: #000;">
+                  Khatib : Ustadz XXXXXX<br>
+                  Imam : Ustadz XXXXXX <br>
+                  Muadzin : XXXXXX <br>
+                  Jam : 12:15 WITA
+                </div>
+                <img src="assets/img/sholjum2.png" alt="">
+              </div>
+              <div class="swiper-slide">
+                <div class="centered" style="color:#000;">
+                  Khatib : Ustadz XXXXXX<br>
+                  Imam : Ustadz XXXXXX <br>
+                  Muadzin : XXXXXX <br>
+                  Jam : 12:15 WITA
+                </div>
+                <img src="assets/img/sholjum3.png" alt="">
+              </div>
+              <div class="swiper-slide">
+                <div class="centered" style="color:#000;">
+                  Khatib : Ustadz XXXXXX<br>
+                  Imam : Ustadz XXXXXX <br>
+                  Muadzin : XXXXXX <br>
+                  Jam : 12:15 WITA
+                </div>
+                <img src="assets/img/sholjum4.png" alt="">
+              </div>
+              <div class="swiper-slide">
+                <div class="centered" style="color:#000;">
+                  Khatib : Ustadz XXXXXX<br>
+                  Imam : Ustadz XXXXXX <br>
+                  Muadzin : XXXXXX <br>
+                  Jam : 12:15 WITA
+                </div>
+                <img src="assets/img/sholjum5.png" alt="">
+              </div>
+             
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        
+    
+
+          <!-- <img src="assets/img/risoles-about.png" alt="about image" class="about__img" /> -->
+        
+
+        <img src="assets/img/leaf-branch-1.png" alt="about image" class="about__leaf" />
+
+
+      </div>
+      </section>
+
+      <!--==================== POPULAR ====================-->
+      <section class="popular section" id="popular">
+        <span class="section__subtitle">Jadwal Kajian Rutin</span>
+        <h2 class="section__title">Daftar Penceramah</h2>
+        <h2 class="section__subtitle">Disediakan Makanan Untuk Berbuka Puasa Sunnah Senin dan Kamis</h2>
+
+        <div class="popular__container container grid">
+          <article class="popular__card">
+            <img src="assets/img/khatib.png" alt="popular image" class="popular__img" />
+            <h3 class="popular__name">Ustadz</h3>
+
+            <span class="popular__description">November 2023</span>
+            <span class="popular__price">Ba'da Maghrib</span>
+
+            <button class="popular__button">
+              <i class="ri-shopping-bag-line"></i>
+            </button>
+          </article>
+
+          <article class="popular__card">
+            <img src="assets/img/khatib.png" alt="popular image" class="popular__img" />
+            <h3 class="popular__name">Ustadz</h3>
+
+            <span class="popular__description">November 2023</span>
+            <span class="popular__price">Ba'da Maghrib</span>
+
+            <button class="popular__button">
+              <i class="ri-shopping-bag-line"></i>
+            </button>
+          </article>
+
+          <article class="popular__card">
+            <img src="assets/img/khatib.png" alt="popular image" class="popular__img" />
+            <h3 class="popular__name">Ustadz</h3>
+
+            <span class="popular__description">November 2023</span>
+            <span class="popular__price">Ba'da Maghrib</span>
+
+            <button class="popular__button">
+              <i class="ri-shopping-bag-line"></i>
+            </button>
+          </article>
+          <article class="popular__card">
+            <img src="assets/img/khatib.png" alt="popular image" class="popular__img" />
+            <h3 class="popular__name">Ustadz</h3>
+
+            <span class="popular__description">November 2023</span>
+            <span class="popular__price">Ba'da Maghrib</span>
+
+            <button class="popular__button">
+              <i class="ri-shopping-bag-line"></i>
+            </button>
+          </article>
+          <article class="popular__card">
+            <img src="assets/img/khatib.png" alt="popular image" class="popular__img" />
+            <h3 class="popular__name">Ustadz</h3>
+
+            <span class="popular__description">November 2023</span>
+            <span class="popular__price">Ba'da Maghrib</span>
+
+            <button class="popular__button">
+              <i class="ri-shopping-bag-line"></i>
+            </button>
+          </article>
+          <article class="popular__card">
+            <img src="assets/img/khatib.png" alt="popular image" class="popular__img" />
+            <h3 class="popular__name">Ustadz</h3>
+
+            <span class="popular__description">November 2023</span>
+            <span class="popular__price">Ba'da Maghrib</span>
+
+            <button class="popular__button">
+              <i class="ri-shopping-bag-line"></i>
+            </button>
+          </article>
+          <article class="popular__card">
+            <img src="assets/img/khatib.png" alt="popular image" class="popular__img" />
+            <h3 class="popular__name">Ustadz</h3>
+
+            <span class="popular__description">November 2023</span>
+            <span class="popular__price">Ba'da Maghrib</span>
+
+            <button class="popular__button">
+              <i class="ri-shopping-bag-line"></i>
+            </button>
+          </article>
+          <article class="popular__card">
+            <img src="assets/img/khatib.png" alt="popular image" class="popular__img" />
+            <h3 class="popular__name">Ustadz</h3>
+
+            <span class="popular__description">November 2023</span>
+            <span class="popular__price">Ba'da Maghrib</span>
+
+            <button class="popular__button">
+              <i class="ri-shopping-bag-line"></i>
+            </button>
+          </article>
+        </div>
+      </section>
+
+      <!--==================== RECENTLY ====================-->
+      <section class="recently section" id="recently">
+        <div class="recently__container container grid">
+          <div class="recently__data">
+            <span class="section__subtitle">Donasi & Keuangan</span>
+            <h2 class="section__title">Infaq dan Sedekah</h2>
+
+            <p class="recently__description"><em>"Wahai orang-orang yang beriman! 
+              Infakkanlah sebagian dari hasil usahamu yang baik-baik ..."</em>
+              (Al-Baqarah : 267)
+            <a href="#" class="button"> Dukung Kami<i class="ri-arrow-right-line"></i> </a>
+
+            <!-- <img src="assets/img/spinach-leaf.png" alt="recently image" class="recenlty__data-img" /> -->
+          </div>
+          <img src="assets/img/infaq.png" alt="recently image" class="recently__img" />
+        </div>
+        <img src="assets/img/leaf-branch-2.png" alt="recently image" class="recently__leaf-1" />
+        <img src="assets/img/leaf-branch-3.png" alt="recently image" class="recently__leaf-2" />
+      
+          <!--==================== DATA TABLE SALDO ====================-->
+      
+          <main>
+            <div class="container" >
+      
+              <!-- Table -->
+              <div class="text-center">
+                <button class="btn btn-primary" id="reload">Refresh</button>
+              </div>
+              <table class="table table-hover" id="userTable">
+                <thead id="table-head">
+                  <th>Tanggal</th>
+                  <th>Transaksi</th>
+                  <th>Keluar</th>
+                  <th>Masuk</th>
+                  <th>Saldo</th>
+                </thead>
+                <tbody id="table-body"></tbody>
+              </table>
+              <!-- Table -->
+            </div>
+          </main>
+      
+      
+      
+      </section>
+
+      <!--==================== NEWSLETTER ====================-->
+      <section class="newsletter section" id="saran">
+        <div class="newsletter__contaiener container">
+          <div class="newsletter__content grid">
+            <img src="assets/img/saran.png" alt="newsletter image" class="newsletter__img" />
+
+            <div class="newsletter__data">
+              <span class="section__subtitle">Saran dan Kritik</span>
+              <h2 class="section__title">
+                Sampaikan Masukan <br />
+                Anda sebagai Perbaikan <br />
+                untuk Kami
+              </h2>
+              <!-- <form action="" class="newsletter__form">
+                <input type="text" placeholder="Nama Anda" class="newsletter__input" name="nama"/>
+              </form>
+
+              <form action="" class="newsletter__form">
+                <input type="number" placeholder="Nomor Telepon Anda" class="newsletter__input" name="telepon"/>
+              </form>
+
+              <form action="" class="newsletter__form">
+                <input type="text" placeholder="Tulis Saran Anda" class="newsletter__input" name="saran"/>
+              </form> -->
+
+              <!-- <button class="button newsletter__button">Kirim<i class="ri-send-plane-line"></i></button> -->
+              <div class="form_saran">
+              <form method="POST" action="https://script.google.com/macros/s/AKfycbzx1vE05GiAblsr9zYXm2FtJIirgZldO31IrZhqSe3UdYNlMIy0V43h7JpYYATlczlx/exec" id="my-form">
+                <label for="fname" class="label__warna">Nama Anda</label>
+                <input type="text" id="fname" name="nama" placeholder="Nama">
+                <br>
+                <label for="lname" class="label__warna">Nomor Telepon</label>
+                <input type="number" id="lname" name="telepon" placeholder="Nomor Telepon Anda">
+                <br>
+                <label for="lname" class="label__warna">Saran</label>
+                <textarea type="text" id="lname" name="saran" placeholder="Tuliskan Saran Anda di sini">
+                </textarea>
+                <br>
+                <input type="submit" value="Kirim">
+
+              </div>
+              </form>
+            </div>
+          </div>
+          <img src="assets/img/spinach-leaf.png" alt="newsletter image" class="newsletter__spinach" />
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer__container container grid">
+        <div>
+          <a href="#" class="footer__logo">
+            <img src="assets/img/logomasjid.png" alt="footer image" />
+            Masjid Ami Abdullah
+          </a>
+          <p class="footer__description">
+            <em>
+            Hanya yang memakmurkan<br />
+            masjid-masjid Allah ialah <br />
+            orang-orang yang beriman <br />
+            kepada Allah dan Hari <br /> 
+            kemudian... (At-Taubah:18)
+            </em>
+          </p>
+        </div>
+
+        <div class="footer__content">
+          <div>
+            <h3 class="footer__title">Main Menu</h3>
+
+            <ul class="footer__links">
+              <li>
+                <a href="#" class="footer__link">Home</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer__link">About</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer__link">Profile</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer__link">Events</a>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="footer__title">Information</h3>
+
+            <ul class="footer__links">
+              <li>
+                <a href="#" class="footer__link">Contact</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer__link">Saran & Kritik</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer__link">Videos</a>
+              </li>
+
+              <li>
+                <a href="#" class="footer__link">Kajian</a>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="footer__title">Address</h3>
+
+            <ul class="footer__links">
+              <li class="footer__information">
+                <a href="#" class="footer__link"
+                  >Jl. A. Yani Km 8,2, <br/>Komplek Persada Mas<br/>
+                 Kabupaten Banjar, <br/>Kalimantan Selatan
+                </a>
+              </li>
+
+              <li class="footer__information"></li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="footer__title">Social Media</h3>
+
+            <ul class="footer__social">
+              <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                <i class="ri-facebook-circle-fill"></i>
+              </a>
+              <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                <i class="ri-instagram-fill"></i>
+              </a>
+              <a href="https://twitter.com/" target="_blank" class="footer__social-link">
+                <i class="ri-twitter-fill"></i>
+              </a>
+            </ul>
+          </div>
+        </div>
+        <!-- <img src="assets/img/spring-onion.png" alt="footer image" class="footer__onion" />
+        <img src="assets/img/spinach-leaf.png" alt="footer image" class="footer__spinach" /> -->
+        <img src="assets/img/leaf-branch-4.png" alt="footer image" class="footer__leaf" />
+
+        <!-- <div class="footer__info container">
+          <div class="footer__card">
+            <img src="assets/img/footer-card-1.png" alt="footer image" class="footer__image" />
+            <img src="assets/img/footer-card-2.png" alt="footer image" class="footer__image" />
+            <img src="assets/img/footer-card-3.png" alt="footer image" class="footer__image" />
+            <img src="assets/img/footer-card-4.png" alt="footer image" class="footer__image" />
+          </div>
+        </div> -->
+
+        <span class="footer__copy"> &#169; 2023 Copyright. All rights reserved </span>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script>
+      window.addEventListener("load", function() {
+        const form = document.getElementById('my-form');
+        form.addEventListener("submit", function(e) {
+          e.preventDefault();
+          const data = new FormData(form);
+          const action = e.target.action;
+          fetch(action, {
+            method: 'POST',
+            body: data,
+          })
+          .then(() => {
+            Swal.fire("Saran Anda telah terkirim");
+          })
+        });
+      });
+    
+    </script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+     <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      effect: "coverflow",
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: "auto",
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: true,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+  </script>
+
+
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-line"></i>
+    </a>
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+   
+    <!--=============== Bootstrap ===============-->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> -->
+
+     <!--=============== Javascript Datatable ===============-->
+    <script>
+      document.querySelector('#reload').addEventListener('click',()=>{
+        window.location.reload(true);
+      })
+    </script>
+    <!-- MDB ESSENTIAL -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Google API -->
+    <script src="https://apis.google.com/js/api.js"></script>
+    <!-- easyData -->
+    <script type="text/javascript" src="js/easyData-google-sheets.js"></script>
+  
+    <!-- easyData - Creating table -->
+    <script>
+      {
+        {
+          // Your API KEY
+          const API_KEY = "AIzaSyDjeACJ5kVgVHqQDCorJfSiKcLB7bvkDQo";
+  
+          function displayResult2(response) {
+            let tableHead = "";
+            let tableBody = "";
+  
+            response.result.values.forEach((row, index) => {
+                tableBody += "<tr>";
+                row.forEach((val) => (tableBody += "<td>" + val + "</td>"));
+                tableBody += "</tr>";
+              }
+            )
+            // document.getElementById("table-head").innerHTML = tableHead;
+            // document.getElementById("table-body").innerHTML = tableBody;
+            
+            $('#userTable').DataTable({
+              responsive: true,
+              "data": response.result.values,
+              columnDefs : [
+                {
+                  "targets": "_all",
+                  "defaultContent": "-" 
+                }, 
+              ],
+            })      
+          }
+  
+          function loadData() {
+            // Spreadsheet ID
+            const spreadsheetId = "1pnD54AQJ6BAkEtJSMt2wF9wdi1p592sc6Me5yNlPUbk";
+            const range = "A2:Z";
+            getPublicValues({ spreadsheetId, range }, displayResult2);
+          }
+  
+          window.addEventListener("load", (e) => {
+            initOAuthClient({ apiKey: API_KEY });
+          });
+  
+          document.addEventListener("gapi-loaded", (e) => {
+            loadData();
+          });
+        }
+      }
+    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.1/js/dataTables.bootstrap5.min.js"></script>
+    <script src="https://cdn.datatables.net/responsive/2.5.0/js/dataTables.responsive.min.js"></script>
+  </body>
+</html>
