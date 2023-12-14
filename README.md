@@ -1,2 +1,2 @@
-# risoles-umi
-website simple risoles umi
+# Masjid Ami Abdullah
+website untuk informasi Masjid Ami Abdullah
